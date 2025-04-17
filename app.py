@@ -39,8 +39,8 @@ def recommend(movie):
 
 
 # File paths
-movies_file_path = r"C:\Users\mypc\OneDrive\Desktop\asad\ml project\movie recommendation system\python\movies_dict.pkl"
-similarity_file_path = r"C:\Users\mypc\OneDrive\Desktop\asad\ml project\movie recommendation system\python\similarity.pkl"
+movies_file_path = r"C:\Users\mypc\OneDrive\Desktop\asad\ml project\movie recommendation system\movies_dict.pkl"
+similarity_file_path = r"C:\Users\mypc\OneDrive\Desktop\asad\ml project\movie recommendation system\similarity.pkl"
 
 # Load data
 if not os.path.exists(movies_file_path) or not os.path.exists(similarity_file_path):
