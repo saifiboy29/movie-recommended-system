@@ -1,1 +1,29 @@
-
+# बाइनरी फाइल्स को LFS के माध्यम से मैनेज करें
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+# डेटा फाइल्स
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+# ML मॉडल्स
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+# ऑडियो फाइल्स
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+# सोर्स कोड और टेक्स्ट फाइल्स को नॉर्मल तरीके से हैंडल करें
+*.py text
+*.sh text
+*.txt text
+*.md text
+*.json text
+*.yaml text
+*.yml text
+*.[[:space:]]pkl filter=lfs diff=lfs merge=lfs -text
